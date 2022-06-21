@@ -1,3 +1,9 @@
+body {
+    background-color: #DFE0E2;
+    color: #071013;
+}
+
+
 .logo {
     height: 100px;
     width: 100px;
@@ -12,8 +18,10 @@ h1 {
     color: #75ABBC;
 }
 
+
 .breadcrumb {
-    background-color:#DFE0E2;
+    background-color:#A2AEBB;
+    
 }
 
 a {
@@ -28,18 +36,20 @@ a:hover {
     background-image: url(img/Carl.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-x: -250px;
+    background-position-x: -400px;
 }
 
 .article1 .article2 .article3 {
     height: 200px;
+    text-align: justify;
 }
 
 .article4 {
     height: 400px;
+    text-align: justify;
 }
 
 .footer {
-    background-color: #23B5D3;
+    background-color: #A2AEBB;
     height: 100px;
 }
