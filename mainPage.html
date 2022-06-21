@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ÆTHER DANCE COMPANY</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <img class="logo rounded-circle" src="img/logo.jpg" alt="Aether Dance Company">
+                    <h1>ÆTHER DANCE COMPANY</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <nav class="col-12" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item active" aria aria-current="page"><a href="#">Qui sommes nous ?</a></li>
+                    <li class="breadcrumb-item"><a href="#">Biographie</a></li>
+                </ol>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <section class="row">
+            <aside class="aside col-12 col-md-3 p-2">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">aside</h5>
+                    </div>
+                </div>
+            </aside>
+            <div class="col-12 col-md-9">
+                <div class="row">
+                    <article class="article1 col-12 col-md-4 p-2">
+                        <div class="card">
+                            <img src="http://placeimg.com/600/200/arch" class="card-img-top rounded-lg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Lorem ipsum</h5>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Pellentesque semper mi est, ac molestie nibh laoreet in.
+                                    Pellentesque massa orci, vulputate et condimentum vitae, pellentesque eget ipsum.
+                                </p>
+                                <a href="#" class="btn btn-secondary">Lire la suite...</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="article2 col-12 col-md-4 p-2">
+                        <div class="card">
+                            <img src="http://placeimg.com/600/200/arch" class="card-img-top rounded-lg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Lorem ipsum</h5>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Pellentesque semper mi est, ac molestie nibh laoreet in.
+                                    Pellentesque massa orci, vulputate et condimentum vitae, pellentesque eget ipsum.
+                                </p>
+                                <a href="#" class="btn btn-secondary">Lire la suite...</a>
+                            </div>
+                        </div>
+                    </article>  
+                    <article class="article3 col-12 col-md-4 p-2">
+                        <div class="card">
+                            <img src="http://placeimg.com/600/200/arch" class="card-img-top rounded-lg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Lorem ipsum</h5>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Pellentesque semper mi est, ac molestie nibh laoreet in.
+                                    Pellentesque massa orci, vulputate et condimentum vitae, pellentesque eget ipsum.
+                                </p>
+                                <a href="#" class="btn btn-secondary">Lire la suite...</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <article class="article4 row">
+                <div class="card-body">
+                    <h5 class="card-title">Lorem ipsum</h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Pellentesque semper mi est, ac molestie nibh laoreet in.
+                        Pellentesque massa orci, vulputate et condimentum vitae, pellentesque eget ipsum.
+                    </p>
+                    <a href="#" class="btn btn-secondary">Lire la suite...</a>
+                </div>
+                </article>
+            </div>
+        </section>
+        <footer class="row footer">
+            <div>
+                <form class="form-inline">
+                    <button class="btn btn-sm btn btn-light" data-toggle="modal" data-target="#contactModal" type="button">Me contacter</button>
+                </form>
+            </div>
+        </footer>
+        <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="contactModalLabel">Me contacter</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="email">Expéditeur</label>
+                                <input type="email" class="form-control" id="email" name="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Sujet</label>
+                                <input type="text" class="form-control" id="subject" name="subject">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                        <button type="button" class="btn btn-primary">Envoyer le message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>   
+</body>
+</html>
