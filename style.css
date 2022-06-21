@@ -1,0 +1,45 @@
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+.header {
+    background-color: #071013;
+    
+}
+
+h1 {
+    color: #75ABBC;
+}
+
+.breadcrumb {
+    background-color:#DFE0E2;
+}
+
+a {
+    color: #071013;
+}
+
+a:hover {
+    color: #23B5D3;
+}
+
+.aside {
+    background-image: url(img/Carl.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -250px;
+}
+
+.article1 .article2 .article3 {
+    height: 200px;
+}
+
+.article4 {
+    height: 400px;
+}
+
+.footer {
+    background-color: #23B5D3;
+    height: 100px;
+}
