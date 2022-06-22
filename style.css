@@ -9,7 +9,7 @@ body {
     width: 100px;
 }
 
-.header {
+.titleBar {
     background-color: #071013;
     
 }
@@ -24,6 +24,7 @@ h1 {
     
 }
 
+
 a {
     color: #071013;
 }
@@ -33,19 +34,15 @@ a:hover {
 }
 
 .aside {
-    background-image: url(img/Carl.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: -400px;
+    background: url(img/Carl.jpg) 90% 30% / cover no-repeat;
 }
 
-.article1 .article2 .article3 {
-    height: 200px;
+.article {
+    height: 100%;
     text-align: justify;
 }
 
-.article4 {
-    height: 400px;
+.presentation {
     text-align: justify;
 }
 
