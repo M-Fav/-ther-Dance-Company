@@ -37,16 +37,16 @@ a:hover {
     background: url(img/Carl.jpg) 90% 30% / cover no-repeat;
 }
 
+.presentation {
+    text-align: justify;
+}
+
 .article {
     height: 100%;
     text-align: justify;
 }
 
-.presentation {
-    text-align: justify;
-}
-
 .footer {
     background-color: #A2AEBB;
-    height: 100px;
+    height: auto;
 }
