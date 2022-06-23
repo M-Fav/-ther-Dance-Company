@@ -1,6 +1,9 @@
+
+
 body {
     background-color: #DFE0E2;
     color: #071013;
+    font-family: 'Hind Guntur', sans-serif;
 }
 
 
@@ -16,11 +19,13 @@ body {
 
 h1 {
     color: #75ABBC;
+    font-style: italic;
 }
 
 
 .breadcrumb {
     background-color:#A2AEBB;
+    font-size: larger;
     
 }
 
