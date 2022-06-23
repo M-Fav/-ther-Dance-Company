@@ -56,7 +56,7 @@
                                 travers la danse.<br>
                             </p>
                             <p>
-                                Pour réaliser ses buts l’Association produit les projets artistiques de (Carl Crochet et Samantha
+                                Pour réaliser ses buts l’Association produit les projets artistiques de Carl Crochet et Samantha
                                 Moysi, et organise des workshops et en assure la gestion.<br>
                                 - La création de spectacles vivants : créer des spectacles et événements publics, pouvant mettre en
                                 jeu diverses disciplines artistiques et notamment la danse, le théâtre, le chant, la musique et la
@@ -71,7 +71,7 @@
                 <div class="row px-2">
                     <div class="col-12 col-md-4 p-2">
                         <article class="article card">
-                            <img src="img/clementProd.jpg" class="card-img-left rounded-lg" alt="">
+                            <img src="img/clementProd.jpg" class="card-img-top rounded-lg" alt="Clément - Karlot">
                             <div class="card-body">
                                 <h2 class="card-title">Karlot passe sous les ponts</h2>
                                 <p class="card-text">
@@ -87,7 +87,7 @@
                     </div>
                     <div class="col-12 col-md-4 p-2">
                         <article class="article card">
-                            <img src="img/SamProd.jpg" class="card-img-top rounded-lg" alt="">
+                            <img src="img/SamProd.jpg" class="card-img-top rounded-lg" alt="Samantha - Red Dove">
                             <div class="card-body">
                                 <h2 class="card-title">Red Dove</h2>
                                 <p class="card-text">
@@ -105,7 +105,7 @@
                     </div> 
                     <div class="col-12 col-md-4 p-2">
                         <article class="article card">
-                            <img src="img/duo.jpg" class="card-img-top rounded-lg" alt="">
+                            <img src="img/duo.jpg" class="card-img-top rounded-lg" alt="duo - Toltec">
                             <div class="card-body">
                                 <h2 class="card-title">Toltec</h2>
                                 <p class="card-text">
@@ -128,46 +128,66 @@
                 </div>  
             </div>
         </section>
-        <footer class="row footer">
-            <div>
-                <form class="form-inline">
-                    <button class="btn btn-sm btn btn-light" data-toggle="modal" data-target="#contactModal" type="button">Me contacter</button>
-                </form>
-            </div>
-        </footer>
-        <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="contactModalLabel">Me contacter</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <form>
-                            <div class="form-group">
-                                <label for="email">Expéditeur</label>
-                                <input type="email" class="form-control" id="email" name="email">
-                            </div>
-                            <div class="form-group">
-                                <label for="subject">Sujet</label>
-                                <input type="text" class="form-control" id="subject" name="subject">
-                            </div>
-                            <div class="form-group">
-                                <label for="message">Message</label>
-                                <textarea class="form-control" id="message" name="message" rows="3"></textarea>
-                            </div>
+    </main>
+    <footer class="row footer justify-content-between">
+        <div class="col-5 col-md-3 m-2">
+            <h4>Contacts :</h4>
+            <p>
+                <b>Adresse de la compagnie :</b><br>
+                Æther Dance Company c/o Tamara Bacci
+                Rue Jacques Grosselin 20
+                1227 Carouge GE
+                Email : aetherdancecompany@gmail.com
+                Instagram : @aetherdancecompany 
+            </p>
+        </div>
+        <div class="col-5 col-md-2 m-2">
+            <h4>Réseaux :</h4>
+            <nav>
+                <ul>
+                    <li><a href="https://www.facebook.com/aetherdancecompany"  class="p-2"><img src="img/facebook.jpg"></a></li>
+                    <li><a href="https://www.instagram.com/aetherdancecompany/" class="p-2"><img src="img/Instagram.jpg"></a></li>
+                    <li>
+                        <form class="form-inline">
+                            <button class="btn btn-sm btn btn-light" data-toggle="modal" data-target="#contactModal" type="button">Nous contacter</button>
                         </form>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-                        <button type="button" class="btn btn-primary">Envoyer le message</button>
-                    </div>
+                    </li>
+                </ul>
+              </nav>
+        </div>
+    </footer>
+    <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="contactModalLabel">Nous contacter</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="email">Expéditeur</label>
+                            <input type="email" class="form-control" id="email" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Sujet</label>
+                            <input type="text" class="form-control" id="subject" name="subject">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                    <button type="button" class="btn btn-primary">Envoyer le message</button>
                 </div>
             </div>
         </div>
-    </main>
+    </div>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
     crossorigin="anonymous"></script>
