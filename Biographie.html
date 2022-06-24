@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Biographie - ÆTHER DANCE COMPANY">
     <title>Biographie - ÆTHER DANCE COMPANY</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -31,9 +32,9 @@
             </nav>
         </div>
     </header>
-    <main class="container-fluid">
+    <main class="container">
         <div class="row p-2">
-            <img class="col-8 col-md-3" src="img/Carl2.jpg">
+            <img class="col-8 col-md-3 bioPicture" src="img/Carl2.jpg" alt="Carl Crochet">
             <article class="col-12 col-md-9 align-self-center">
                 <h2>Carl Corchet - Chorégraphe</h2>
                 <p>Après deux ans au Ballet Junior de Genève qu'il quitte en 2015, il commence sa carrière de danseur
@@ -54,7 +55,7 @@
             </article>
         </div>
         <div class="row p-2">
-            <img class="col-8 col-md-3" src="img/Sam.jpeg">
+            <img class="col-8 col-md-3 bioPicture" src="img/Sam.jpeg" alt="Samantha Moysi">
             <article class="col-12 col-md-9 align-self-center">
                 <h2>Samantha Moysi - Danseuse interprète / Assistante chorégraphe</h2>
                 <p>Après ses jeunes années d'études à Chypre dans divers styles de danse tels que le ballet, le
@@ -73,7 +74,7 @@
             </article>
         </div>
         <div class="row p-2">
-            <img class="col-8 col-md-3" src="img/Clément.jpg">
+            <img class="col-8 col-md-3 bioPicture" src="img/Clément.jpg" alt="Clément Fleuriel">
             <article class="col-12 col-md-9 align-self-center">
                 <h2>Clément Fleuriel - Danseur interprète</h2>
                 <p>Clément a commencé sa formation d'artiste par le théâtre classique en conservatoire, parallèlement
@@ -90,7 +91,7 @@
             </article>
         </div>
         <div class="row p-2">
-            <img class="col-8 col-md-3" src="img/Eleonora.jpeg">
+            <img class="col-8 col-md-3 bioPicture" src="img/Eleonora.jpeg" alt="Eleonora Campello">
             <article class="col-12 col-md-9 align-self-center">
                 <h2>Eleonora Campello - Danseuse interprète</h2>
                 <p>Eleonora Campello est née en 2000 à Camposampiero en Italie. 
@@ -102,31 +103,33 @@
             </article>
         </div>
     </main>
-    <footer class="row footer justify-content-between">
-        <div class="col-5 col-md-3 m-2">
-            <h4>Contacts :</h4>
-            <p>
+    <footer class="container-fluid footer">
+        <div class="row justify-content-between">
+            <div class="col-5 col-md-3 m-2">
+                <h3>Contacts :</h3>
+                <p>
                 <b>Adresse de la compagnie :</b><br>
                 Æther Dance Company c/o Tamara Bacci
                 Rue Jacques Grosselin 20
                 1227 Carouge GE
                 Email : aetherdancecompany@gmail.com
                 Instagram : @aetherdancecompany 
-            </p>
-        </div>
-        <div class="col-5 col-md-2 m-2">
-            <h4>Réseaux :</h4>
-            <nav>
-                <ul>
-                    <li><a href="https://www.facebook.com/aetherdancecompany"  class="p-2"><img src="img/facebook.jpg"></a></li>
-                    <li><a href="https://www.instagram.com/aetherdancecompany/" class="p-2"><img src="img/Instagram.jpg"></a></li>
-                    <li>
-                        <form class="form-inline">
-                            <button class="btn btn-sm btn btn-light" data-toggle="modal" data-target="#contactModal" type="button">Nous contacter</button>
-                        </form>
-                    </li>
-                </ul>
-              </nav>
+                </p>
+            </div>
+            <div class="col-5 col-md-2 m-2">
+                <h3>Réseaux :</h3>
+                <nav>
+                    <ul>
+                        <li><a href="https://www.facebook.com/aetherdancecompany"  class="p-2"><img src="img/facebook.jpg" alt="Facebook"></a></li>
+                        <li><a href="https://www.instagram.com/aetherdancecompany/" class="p-2"><img src="img/Instagram.jpg" alt="Instagram"></a></li>
+                        <li>
+                            <form class="form-inline">
+                                <button class="btn btn-sm btn btn-light" data-toggle="modal" data-target="#contactModal" type="button">Nous contacter</button>
+                            </form>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </footer>
     <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">

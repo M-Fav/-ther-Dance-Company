@@ -1,4 +1,9 @@
-
+@media screen and (max-width: 768px) {
+    .asidePicture {
+        display: none;
+    }
+    
+}
 
 body {
     background-color: #DFE0E2;
@@ -38,7 +43,7 @@ a:hover {
     color: #23B5D3;
 }
 
-.aside {
+.asidePicture {
     background: url(img/Carl.jpg) 90% 30% / cover no-repeat;
 }
 
@@ -60,5 +65,9 @@ a:hover {
 ul {
     list-style-type: none;
     display: inline-flex;
+}
+
+.bioPicture {
+    height: fit-content;
 }
 

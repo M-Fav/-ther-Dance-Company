@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bienvenue sur le site de notre compagnie ÆTHER DANCE COMPANY">
     <title>ÆTHER DANCE COMPANY</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -15,12 +16,10 @@
 <body>
     <header>
         <div class="titleBar">
-            <div>
                 <div class="d-flex flex-row justify-content-between p-2 align-items-center">
                     <img class="logo rounded-circle m-2" src="img/logo.jpg" alt="Aether Dance Company">
                     <h1><strong>ÆTHER DANCE COMPANY</strong></h1>
                 </div>
-            </div>
         </div>
         <div class="breadcrumb">
             <nav class="col-12" aria-label="breadcrumb">
@@ -31,10 +30,9 @@
             </nav>
         </div>
     </header>
-    <main class="container-fluid">
+    <main class="container">
         <section class="row">
-            <aside class="aside col-12 col-md-2 p-2">
-            </aside>
+            <aside class="asidePicture col-12 col-md-3 p-2">
             </aside>
             <div class="col-12 col-md-9">
                 <article class="presentation">
@@ -132,31 +130,33 @@
             </div>
         </section>
     </main>
-    <footer class="row footer justify-content-between">
-        <div class="col-5 col-md-3 m-2">
-            <h4>Contacts :</h4>
-            <p>
+    <footer class="container-fluid footer">
+        <div class="row justify-content-between">
+            <div class="col-5 col-md-3 m-2">
+                <h3>Contacts :</h3>
+                <p>
                 <b>Adresse de la compagnie :</b><br>
                 Æther Dance Company c/o Tamara Bacci
                 Rue Jacques Grosselin 20
                 1227 Carouge GE
                 Email : aetherdancecompany@gmail.com
                 Instagram : @aetherdancecompany 
-            </p>
-        </div>
-        <div class="col-5 col-md-2 m-2">
-            <h4>Réseaux :</h4>
-            <nav>
-                <ul>
-                    <li><a href="https://www.facebook.com/aetherdancecompany"  class="p-2"><img src="img/facebook.jpg"></a></li>
-                    <li><a href="https://www.instagram.com/aetherdancecompany/" class="p-2"><img src="img/Instagram.jpg"></a></li>
-                    <li>
-                        <form class="form-inline">
-                            <button class="btn btn-sm btn btn-light" data-toggle="modal" data-target="#contactModal" type="button">Nous contacter</button>
-                        </form>
-                    </li>
-                </ul>
-              </nav>
+                </p>
+            </div>
+            <div class="col-5 col-md-2 m-2">
+                <h3>Réseaux :</h3>
+                <nav>
+                    <ul>
+                        <li><a href="https://www.facebook.com/aetherdancecompany"  class="p-2"><img src="img/facebook.jpg" alt="Facebook"></a></li>
+                        <li><a href="https://www.instagram.com/aetherdancecompany/" class="p-2"><img src="img/Instagram.jpg" alt="Instagram"></a></li>
+                        <li>
+                            <form class="form-inline">
+                                <button class="btn btn-sm btn btn-light" data-toggle="modal" data-target="#contactModal" type="button">Nous contacter</button>
+                            </form>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </footer>
     <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
